@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+#introducao img {
+    width: 250px;
+    height: 250px;
+}
+
+#enunciado {
+    margin-top: 20px;
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: lightgray;
+    width: 32%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+small {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 30px;
+}
+
+#rodapé p {
+    margin-top: 10px;
+}
